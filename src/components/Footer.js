@@ -9,8 +9,9 @@ export default function Footer(){
             </div>
 
             <div className="footer-contact">
-                <p>email@gmail.com</p>
-                <p>(XXX) XXX-XXXX</p>
+                <a href="mailto:ewatsonrei@gmail.com">ewatsonrei@gmail.com</a>
+                <br/>
+                <a href="tel:+9084721977">(908) 472-1977</a>
             </div>
 
             <div className="footer-lists">

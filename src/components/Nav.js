@@ -20,7 +20,7 @@ export default function Nav(){
                 <li className="nav-link"><Link to="/contact">Contact</Link></li>
             </ul>
             
-            <div onClick={()=> setNavToggle(navToggle => !navToggle)} className="burger">
+            <div onClick={()=> setNavToggle(navToggle => !navToggle)} id="burger">
                 <div className="line1"></div>
                 <div className="line2"></div>
                 <div className="line3"></div>

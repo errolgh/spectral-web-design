@@ -1,5 +1,5 @@
 .how-it-works {
-    margin-bottom: 8em;
+    margin-bottom: 8rem;
 }
 
 
@@ -7,45 +7,46 @@ h2 {
     text-align: center;
 }
 
+h4 {
+  margin-bottom: .4rem;
+}
+
 
 .gearbox {
-    text-align: center;
-    position: relative;
-    top: 50px;
-    transform: translate(-2%, 0);
-    transform: rotate(20deg);
-    margin-bottom: 5em;
-}
-
-.dark-gear {
-    position: relative;
-    top: 12px;
-    right: 2px;
-}
-
-
-.no-money-down {
+  opacity: .7;
   text-align: center;
-  font-size: 2.2em;
-  line-height: 2em;
+  position: relative;
+  top: 50px;
+  transform: translate(-2%, 0);
+  transform: rotate(20deg);
+  margin: 0 auto 7rem;
+  max-width: 50%;
 }
 
+.gear {
+  width: 35%;
+}
+.dark-gear {
+  position: relative;
+  top: 12px;
+  right: 2px;
+}
 
 
 @media (prefers-reduced-motion: no-preference) {
-    .colored-gear {
-      animation: gear-spin-clock infinite 10s linear;
-    }
+  .colored-gear {
+    animation: gear-spin-clock infinite 10s linear;
   }
+}
 
-  
+
 @keyframes gear-spin-clock {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
   }
   
 
@@ -65,20 +66,7 @@ h2 {
       transform: rotate(0deg);
     }
 }
-  
 
-
-.how-it-works-art img {
-  height: 100%;
-  width: 100%;
-}
-
-.how-it-works-text {
-  img {
-    height: 100%;
-    width: 100%;
-  }
-}
 
 
 .work-phase-list {
@@ -86,29 +74,125 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 15em 0;
+  // margin: 7rem 0;
 }
 
 .work-phase {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 9em auto;
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+  margin: 5rem auto;
 }
 
-
-.standard-5-page-site {
-  width: 50%;
+.text-after-gears {
+  width: 95%;
   text-align: center;
-  margin: 2em auto;
-  font-size: $font-med;
+  margin: 2rem auto 7rem;
+  
+  .no-money-down {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+  }  
+
+  .standard-5-page-site {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: lighter;
+    margin: 0 auto;
+  }
 }
+
+
+
 
 
 .how-it-works-text {
-  width: 60%;
-  font-size: $font-med;
-  &:nth-child(2) {
-    text-align: right;
+  line-height: 1.5;
+  font-weight: lighter;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto 2rem;
+  font-size: $font-md;
+}
+
+
+
+
+.how-it-works-art {
+  margin: 0 auto;
+  width: 80%;
+  padding: 0 2rem;
+}
+
+@media (min-width: 500px) {
+  .gear {
+    width: 20%;
   }
+}
+
+@media (min-width: 768px) {
+  .standard-5-page-site {
+    width: 80%;
+  }
+  .gear {
+    width: 14%;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  .standard-5-page-site {
+    width: 75%;
+  }
+
+  .how-it-works-art {
+    width: 50%;
+  }
+
+  .how-it-works {
+    margin-bottom: 12rem;
+  }
+
+  .gear {
+    width: 12%;
+  }
+  
+
+}
+
+@media (min-width: 1200px) {
+  .work-phase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    margin-bottom: 10rem;
+  }
+  
+  .how-it-works-text {
+    width: 50%;
+  }
+
+  .how-it-works {
+    margin-bottom: 15rem;
+  }
+
+  .gear {
+    width: 10%;
+  }
+  
+
+}
+
+@media (min-width: 1400px) {
+  .work-phase {
+    width: 80%;
+  }
+
+  .gear {
+    width: 60px;
+  }
+
 }

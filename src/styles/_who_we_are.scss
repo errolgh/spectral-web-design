@@ -1,6 +1,5 @@
 .owner-picture {
-    height: 300px;
-    width: 300px;
+    width: 70%;
     border-radius: 50%;
     text-align: center;
 }
@@ -11,14 +10,58 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 5em;
+    margin-bottom: 10em;
     p {
-        width: 40%;
-        font-size: 1.2em;
-        line-height: 1.6em;
+        width: 90%;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        font-weight: lighter;
     }
 
     & > * {
         margin-bottom: 4rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .owner-picture {
+        width: 50%;
+    }
+    
+    .who-we-are p {
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .owner-picture {
+        width: 30%;
+    }
+    
+    .who-we-are p {
+        width: 70%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .owner-picture {
+        width: 25%;
+    }
+    
+    .who-we-are p {
+        width: 60%;
+    }
+
+    .who-we-are {
+        margin-bottom: 15rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .owner-picture {
+        width: 20%;
     }
 }

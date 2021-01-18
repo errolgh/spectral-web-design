@@ -3,7 +3,7 @@ export default function Prices(){
         <section class="prices">
             
             <h2>Our Pricing</h2>
-            <cite>per month</cite>
+            <cite>(per month)</cite>
             
             <div class="price-boxes">
 
@@ -27,6 +27,7 @@ export default function Prices(){
                     <ul>
                         <li>All of Standard</li>
                         <li>SEO Analysis</li>
+                        <li>Lorem</li>
                         <li>Blog Page</li>
                     </ul>
                     <button>Learn More</button>
@@ -37,6 +38,7 @@ export default function Prices(){
                     <span>Starting At</span>
                     <p>$349</p>
                     <ul>
+                        <li>Lorem</li>
                         <li>2 Revisions</li>
                         <li>All File Formats</li>
                         <li>Light & Dark Versions</li>
