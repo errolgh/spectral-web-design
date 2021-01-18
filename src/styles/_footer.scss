@@ -1,0 +1,49 @@
+
+footer {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    background-color: $primary-dark;
+
+    #logo {
+        display: flex;
+    }
+    
+    #stamp {
+        height: 4rem;
+        width: 4rem;
+        background-color: $primary-text-dark;
+        border-radius: 50%;
+        margin-right: 0.5em;
+        position: relative;
+        top: 0.4rem;
+    }
+    #spectral {
+        text-transform: uppercase;
+        letter-spacing: 0.15rem;
+        font-weight: 500;
+    }
+
+    .footer-lists {
+        display: flex;
+        justify-content: space-between;
+        font-size: $font-med;
+        line-height: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+
+        li {
+            padding: 0 2rem;
+        }
+    }
+    
+    .footer-contact, .branding {
+        font-size: $font-med;
+        font-weight: 500;
+        padding: 3rem;
+    }
+    
+}

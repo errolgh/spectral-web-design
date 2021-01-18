@@ -1,0 +1,24 @@
+// bold, "primary", main colors
+$primary-text-dark: rgb(41, 41, 41);
+$primary-dark: rebeccapurple;
+
+// neutral, pastel, light colors
+$primary-light: #E3DDF1;
+// $primary-text-light: rgb(41, 41, 41);
+
+
+// font-sizes
+$font-sm: 1rem;
+$font-med: 1.2rem;
+$font-lg: 3rem;
+$font-xl: 7.5rem;
+$font-xxl: 10rem;
+
+
+// break-points
+$bp-xs: 440px;  // less than
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+$bp-xxl: 1400px; //greater than

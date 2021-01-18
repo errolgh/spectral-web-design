@@ -1,0 +1,114 @@
+.how-it-works {
+    margin-bottom: 8em;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+.gearbox {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    transform: translate(-2%, 0);
+    transform: rotate(20deg);
+    margin-bottom: 5em;
+}
+
+.dark-gear {
+    position: relative;
+    top: 12px;
+    right: 2px;
+}
+
+
+.no-money-down {
+  text-align: center;
+  font-size: 2.2em;
+  line-height: 2em;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .colored-gear {
+      animation: gear-spin-clock infinite 10s linear;
+    }
+  }
+
+  
+@keyframes gear-spin-clock {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .dark-gear {
+      animation: gear-spin-counter infinite 10s linear;
+    }
+}
+
+  
+@keyframes gear-spin-counter {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+}
+  
+
+
+.how-it-works-art img {
+  height: 100%;
+  width: 100%;
+}
+
+.how-it-works-text {
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+.work-phase-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15em 0;
+}
+
+.work-phase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 9em auto;
+}
+
+
+.standard-5-page-site {
+  width: 50%;
+  text-align: center;
+  margin: 2em auto;
+  font-size: $font-med;
+}
+
+
+.how-it-works-text {
+  width: 60%;
+  font-size: $font-med;
+  &:nth-child(2) {
+    text-align: right;
+  }
+}

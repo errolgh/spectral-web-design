@@ -1,0 +1,24 @@
+.owner-picture {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.who-we-are {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5em;
+    p {
+        width: 40%;
+        font-size: 1.2em;
+        line-height: 1.6em;
+    }
+
+    & > * {
+        margin-bottom: 4rem;
+    }
+}
