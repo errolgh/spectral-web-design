@@ -1,4 +1,4 @@
-import owner from '../assets/owner.jpg'
+import owner from '../../assets/owner.jpg'
 
 export default function WhoWeAre(){
     return (

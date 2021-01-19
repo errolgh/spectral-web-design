@@ -17,7 +17,7 @@ export default function Hero(){
                     <h2 className="purpose">Baltimore Web Development & Design</h2>
                     <h2 className="tagline">Blazing-fast, custom-built, modern websites for small businesses and professionals.</h2>
                     <h3 className="sub-tagline">Designed to&nbsp;
-                        <TextLoop className="cycle-text" mask={true} springConfig={{ stiffness: 50, damping: 12 }} interval={3000} children={["Inspire.", "Captivate.", "Empower.", "Work."]} />
+                        <TextLoop mask={true} springConfig={{ stiffness: 50, damping: 12 }} interval={3000} children={["Inspire.", "Captivate.", "Empower.", "Work."]} />
                     </h3>
                     <button className="btn">Contact Us</button>
                 </div>

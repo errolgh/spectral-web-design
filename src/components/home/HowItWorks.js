@@ -1,7 +1,7 @@
-import infinite_edits from '../assets/infinite_edits.svg'
-import web_development from '../assets/web_development.svg'
-import hosting from '../assets/hosting.svg'
-import contact from '../assets/contact.svg'
+import infinite_edits from '../../assets/infinite_edits.svg'
+import web_development from '../../assets/web_development.svg'
+import hosting from '../../assets/hosting.svg'
+import contact from '../../assets/contact.svg'
 
 export default function HowItWorks(){
     return (

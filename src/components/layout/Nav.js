@@ -6,12 +6,14 @@ export default function Nav(){
     return(
         <nav>
 
-            <div id="logo">
-                <div id="stamp"></div>
-                <div className="company-name">
-                    <h1><span id="spectral">Spectral</span><br/><span id="web-designs">Web Designs</span></h1>
-                </div>
-            </div>
+                <Link to="/">
+                    <div id="logo">
+                        <div id="stamp"></div>
+                        <div className="company-name">
+                            <h1><span id="spectral">Spectral</span><br/><span id="web-designs">Web Designs</span></h1>
+                        </div>
+                    </div>
+                </Link>
 
             <ul id="nav-list" className={navToggle ? 'active' : ''}>
                 <li className="nav-link"><Link to="/">Home</Link></li>

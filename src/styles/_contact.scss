@@ -1,0 +1,22 @@
+.banner {
+    text-align: center;
+    background: $primary-light;
+    // background-image: ;
+    margin-bottom: 1rem;
+}
+
+.form-and-image-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#contact-form {
+        textarea,
+        input  {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            line-height: 1.7rem;
+            margin: 0 auto .7rem;
+        }
+}
