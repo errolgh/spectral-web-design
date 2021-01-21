@@ -74,13 +74,9 @@ h4 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  // margin: 7rem 0;
 }
 
 .work-phase {
-  // display: flex;
-  // justify-content: space-between;
-  // align-items: center;
   margin: 5rem auto;
 }
 
@@ -105,19 +101,16 @@ h4 {
 }
 
 
-
-
-
 .how-it-works-text {
   line-height: 1.5;
   font-weight: lighter;
   text-align: center;
   width: 90%;
   margin: 0 auto 2rem;
-  font-size: 1.7rem; 
+  font-size: 1.5rem; 
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -143,6 +136,11 @@ h4 {
   .gear {
     width: 14%;
   }
+
+  .how-it-works-art {
+    width: 60%;
+  }
+
   
 }
 

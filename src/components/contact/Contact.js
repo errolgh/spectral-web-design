@@ -1,22 +1,25 @@
+import contact_us from '../../assets/contact_us.svg'
 
 export default function Contact(){
     return(
         <section id="contact-us">
             <div className="banner-container">
                 <h1 className="banner">Contact Us</h1>
+                <div className="banner-overlay"></div>
             </div>
 
             <div className="form-and-image-container">
                 <form id="contact-form">
-                    <input placeholder="Name" type="text"/>
-                    <input placeholder="Business" type="text"/>
-                    <input placeholder="Email Address" type="text"/>
+                    <h3>Get In Touch WIth Us</h3>
+                    <input required placeholder="Full Name" type="text"/>
+                    <input placeholder="Business Name" type="text"/>
+                    <input required placeholder="Email" type="text"/>
                     <input placeholder="Phone Number" type="text"/>
-                    <textarea placeholder="Type your message here" name="" id=""></textarea>
+                    <textarea required placeholder="Message" name="" id=""></textarea>
                 </form>
 
                 <div className="contact-image-container">
-                    <img src="../../assets/contact-us" alt=""/>
+                    <img src={contact_us} alt="contact us"/>
                 </div>
             </div>
         </section>
