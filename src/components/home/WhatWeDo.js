@@ -1,3 +1,6 @@
+import devices from '../../assets/devices.svg'
+import three_up_arrows from '../../assets/three_up_arrows.svg'
+import nerd from '../../assets/nerd.svg'
 import { Link } from 'react-router-dom'
 
 export default function WhatWeDo(){
@@ -10,19 +13,19 @@ export default function WhatWeDo(){
             </div>                                                                                     
             <div class="what-we-do-content">
                 <div class="item">
-                    <div class="icon">A</div>
+                    <img src={devices} alt="devices"/>
                     <h3>Mobile-Responsive Design</h3>
-                    <p>Description Lorem ipsum dolor looks great on tables and smart phones. Eveniet, suscipit ad!</p>
+                    <p>We understand that in today's digital landscape, your web presence needs to be designed for desktop, mobile devices, and everything in between.</p>
                 </div>
                 <div class="item">
-                    <div class="icon">B</div>
+                    <img src={three_up_arrows} alt="three up arrows"/>
                     <h3>SEO-Smart</h3>
-                    <p>Lighthouse responsive accessible keyword-rich fast loading times SEO-friendly.</p>
+                    <p>We test website load times, accessibility, SEO-Keyword quality, and performance on every website. The metrics modern search engines use to determine where your site shows up in search results.</p>
                 </div>
                 <div class="item">
-                    <div class="icon">C</div>
+                    <img src={nerd} alt="nerd"/>
                     <h3>Hosting & Domain Maintenance</h3>
-                    <p>Description server domain consectetur protected. Renewal, itaque?</p>
+                    <p>Leave domain, hosting, and encryption to your techology professionals. Our service is meant to help you focus on your business -- leave the nerdy stuff to us.</p>
                 </div>
             </div>
         </section>

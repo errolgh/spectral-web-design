@@ -28,7 +28,7 @@ export default function HowItWorks(){
                 <div className="work-phase">
                     <div className="how-it-works-text">
                         <h4>Unlimited Edits</h4>
-                        <p>Make any changes you want at anytime at no extra cost.</p>
+                        <p>Make any design changes you want at anytime at no extra cost.</p>
                     </div>
                     <div className="how-it-works-art">
                         <img src={infinite_edits} alt="Infinite Edits"/>
@@ -60,8 +60,8 @@ export default function HowItWorks(){
                         <img src={contact} alt="Infinite Edits"/>
                     </div>
                     <div className="how-it-works-text">
-                        <h4>24/7 Customer Service</h4>
-                        <p>Call direct anytime day or night, no phone trees or automated responses.</p>
+                        <h4>Human Customer Service</h4>
+                        <p>Contact us anytime and communicate with a real human.</p>
                     </div>
                 </div>                
             </div>

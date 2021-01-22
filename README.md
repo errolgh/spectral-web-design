@@ -1,3 +1,11 @@
+mobile first design
+Our layouts feature mobile-first design patterns.
+
+SEO
+Google Lighthouse benchmark tool.
+
+
+
 https://www.npmjs.com/package/react-text-loop
 
 undraw
