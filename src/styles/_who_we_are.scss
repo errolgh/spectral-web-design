@@ -1,77 +1,101 @@
-.owner-picture {
-    width: 70%;
-    border-radius: 50%;
-    text-align: center;
+.banner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $primary-light;
+  background-image: url("/assets/forest_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 1rem;
+  height: 15vh;
+  position: relative;
 }
 
+.banner {
+  color: white;
+  z-index: 10;
+  font-size: 2rem;
+}
+
+.banner-overlay {
+  width: 100%;
+  height: 15vh;
+  background: $primary-light;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.owner-picture {
+  margin-top: 2rem;
+  width: 50%;
+  border-radius: 50%;
+  text-align: center;
+}
 
 h2 {
-    font-size: $font-lg;
+  font-size: $font-lg;
 }
-
 
 .who-we-are {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 10em;
-    p {
-        width: 90%;
-        font-size: 1.2rem;
-        line-height: 1.8rem;
-        font-weight: lighter;
-    }
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10em;
+  p {
+    width: 90%;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: lighter;
+  }
 
-    & > * {
-        margin-bottom: 4rem;
-    }
+  & > * {
+    margin-bottom: 4rem;
+  }
 }
-
 
 @media (min-width: 768px) {
-    .owner-picture {
-        width: 50%;
-    }
-    
-    .who-we-are p {
-        width: 80%;
-    }
-}
+  .owner-picture {
+    width: 30%;
+  }
 
+  .who-we-are p {
+    width: 80%;
+  }
+}
 
 @media (min-width: 992px) {
-    .owner-picture {
-        width: 30%;
-    }
-    
-    .who-we-are p {
-        width: 70%;
-    }
+  //   .owner-picture {
+  //     width: 15%;
+  //   }
+
+  .who-we-are p {
+    width: 70%;
+  }
 }
 
-
 @media (min-width: 1200px) {
-    .owner-picture {
-        width: 25%;
-    }
-    
-    .who-we-are p {
-        width: 60%;
-    }
-    
-    .who-we-are {
-        margin-bottom: 15rem;
-    }
+  .owner-picture {
+    width: 25%;
+  }
+
+  .who-we-are p {
+    width: 60%;
+  }
+
+  .who-we-are {
+    margin-bottom: 15rem;
+  }
 }
 
 @media (min-width: 1400px) {
-    .who-we-are p {
-        width: 40%;
-    }
+  .who-we-are p {
+    width: 40%;
+  }
 
-    .owner-picture {
-        width: 20%;
-    }
+  //   .owner-picture {
+  //     width: 20%;
+  //   }
 }

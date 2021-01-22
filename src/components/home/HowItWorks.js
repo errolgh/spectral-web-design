@@ -16,19 +16,18 @@ export default function HowItWorks(){
 
             <div className="text-after-gears">
                 <h3 className="no-money-down">$0 down. Starting at $149 per month.<br/>No contract. Cancel whenever you want.</h3>
-                <p className="standard-5-page-site">No money down for a standard 5 page website. If you need more than that then we have to do custom pricing based on the scope of work, number of additional pages, and time involved.</p>
+                <p className="standard-5-page-site">No money down for a standard website up to 5 pages. Additional features or pages that scope of work can be achieved with a custom-tailored package.</p>
             </div>
 
 
 
-            {/* kinda give a rundown of what working with you is like in the alternating feature pattern */}
 
             
             <div className="work-phase-list">
                 <div className="work-phase">
                     <div className="how-it-works-text">
                         <h4>Unlimited Edits</h4>
-                        <p>Make any design changes you want at anytime at no extra cost.</p>
+                        <p>If your product or services have changed, you can request any revisions to existing features at anytime, at no extra cost.</p>
                     </div>
                     <div className="how-it-works-art">
                         <img src={infinite_edits} alt="Infinite Edits"/>
@@ -48,7 +47,7 @@ export default function HowItWorks(){
                 <div className="work-phase">
                     <div className="how-it-works-text">
                         <h4>Hosting Management</h4>
-                        <p>Hosting fees are built into monthly payments. We also have domain management services.</p>
+                        <p>Hosting maintenence are built into your subscription. Once your website is completed, we will keep it up and running while you focus on your business.</p>
                     </div>
                     <div className="how-it-works-art">
                         <img src={hosting} alt="Infinite Edits"/>

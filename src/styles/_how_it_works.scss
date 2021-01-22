@@ -1,19 +1,17 @@
 .how-it-works {
-    margin-bottom: 8rem;
+  margin-bottom: 8rem;
 }
 
-
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 h4 {
-  margin-bottom: .4rem;
+  margin-bottom: 0.4rem;
 }
 
-
 .gearbox {
-  opacity: .7;
+  opacity: 0.7;
   text-align: center;
   position: relative;
   top: 50px;
@@ -32,13 +30,11 @@ h4 {
   right: 2px;
 }
 
-
 @media (prefers-reduced-motion: no-preference) {
   .colored-gear {
     animation: gear-spin-clock infinite 10s linear;
   }
 }
-
 
 @keyframes gear-spin-clock {
   from {
@@ -47,27 +43,22 @@ h4 {
   to {
     transform: rotate(360deg);
   }
-  }
-  
-
+}
 
 @media (prefers-reduced-motion: no-preference) {
-    .dark-gear {
-      animation: gear-spin-counter infinite 10s linear;
-    }
+  .dark-gear {
+    animation: gear-spin-counter infinite 10s linear;
+  }
 }
 
-  
 @keyframes gear-spin-counter {
-    from {
-      transform: rotate(360deg);
-    }
-    to {
-      transform: rotate(0deg);
-    }
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }
-
-
 
 .work-phase-list {
   display: flex;
@@ -84,12 +75,12 @@ h4 {
   width: 95%;
   text-align: center;
   margin: 2rem auto 7rem;
-  
+
   .no-money-down {
     font-size: 1.7rem;
     line-height: 2.5rem;
     margin-bottom: 3rem;
-  }  
+  }
 
   .standard-5-page-site {
     text-align: center;
@@ -100,22 +91,18 @@ h4 {
   }
 }
 
-
 .how-it-works-text {
   line-height: 1.5;
   font-weight: lighter;
   text-align: center;
   width: 90%;
   margin: 0 auto 2rem;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
 
   p {
     font-size: 1.2rem;
   }
 }
-
-
-
 
 .how-it-works-art {
   margin: 0 auto;
@@ -140,13 +127,11 @@ h4 {
   .how-it-works-art {
     width: 60%;
   }
-
-  
 }
 
 @media (min-width: 992px) {
   .standard-5-page-site {
-    width: 75%;
+    width: 65%;
   }
 
   .how-it-works-art {
@@ -160,8 +145,6 @@ h4 {
   .gear {
     width: 12%;
   }
-  
-
 }
 
 @media (min-width: 1200px) {
@@ -172,7 +155,7 @@ h4 {
     padding: 0 2rem;
     margin-bottom: 10rem;
   }
-  
+
   .how-it-works-text {
     width: 50%;
   }
@@ -184,8 +167,6 @@ h4 {
   .gear {
     width: 10%;
   }
-  
-
 }
 
 @media (min-width: 1400px) {
@@ -196,5 +177,4 @@ h4 {
   .gear {
     width: 60px;
   }
-
 }

@@ -2,7 +2,7 @@ import Nav from './components/layout/Nav'
 import Hero from './components/home/Hero'
 import WhatWeDo from './components/home/WhatWeDo'
 import HowItWorks from './components/home/HowItWorks'
-import WhoWeAre from './components/home/WhoWeAre'
+import WhoWeAre from './components/about/WhoWeAre'
 import Prices from './components/home/Prices'
 import Contact from './components/contact/Contact'
 import Footer from './components/layout/Footer'
@@ -21,11 +21,13 @@ function App() {
             <Hero />
             <WhatWeDo />
             <HowItWorks />
-            <WhoWeAre />
             <Prices />
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/about">
+            <WhoWeAre />
           </Route>
         </main>
       </Switch>
