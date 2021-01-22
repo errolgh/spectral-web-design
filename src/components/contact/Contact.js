@@ -16,7 +16,7 @@ export default function Contact(){
                     <input required placeholder="Email" type="text"/>
                     <input placeholder="Phone Number" type="text"/>
                     <textarea required placeholder="Message" name="" id=""></textarea>
-                    <button type="submit" id="submit" label="submit" name="submit">Submit</button>
+                    <button className="btn" type="submit" id="submit" label="submit" name="submit">Submit</button>
                 </form>
 
                 <div className="contact-image-container">

@@ -17,7 +17,7 @@ export default function WhoWeAre(){
             <p>
                 I think it's wild that companies spend thousands of dollars upfront and even more every month thereafter. It's easier for a small business to make monthly payments so they can invest in the rest of their operations. I wanted to create a business model that lets participate at a reasonable subscription rate.
             </p>
-            <button>Let's work together</button>
+            <button className="btn">Let's work together</button>
 
         </section>
     )
