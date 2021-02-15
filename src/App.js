@@ -4,7 +4,6 @@ import WhatWeDo from './components/home/WhatWeDo'
 import HowItWorks from './components/home/HowItWorks'
 import WhoWeAre from './components/about/WhoWeAre'
 import Prices from './components/home/Prices'
-import Services from './components/services/Services'
 import Contact from './components/contact/Contact'
 import Footer from './components/layout/Footer'
 import { Switch, Route, useLocation } from 'react-router-dom'
@@ -26,9 +25,6 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
-          </Route>
-          <Route path="/services">
-            <Services />
           </Route>
           <Route path="/about">
             <WhoWeAre />

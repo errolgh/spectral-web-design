@@ -19,7 +19,7 @@ export default function WhatWeDo(){
                 </div>
                 <div class="item">
                     <img src={three_up_arrows} alt="three up arrows"/>
-                    <h3>SEO-Smart</h3>
+                    <h3>SEO-Smart Performance</h3>
                     <p>We test website load times, accessibility, SEO-Keyword quality, and performance on every website. The metrics modern search engines use to determine where your site shows up in search results.</p>
                 </div>
                 <div class="item">

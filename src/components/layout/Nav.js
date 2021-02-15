@@ -17,7 +17,7 @@ export default function Nav(){
 
             <ul id="nav-list" className={navToggle ? 'active' : ''}>
                 <li className="nav-link"><Link to="/">Home</Link></li>
-                <li className="nav-link"><Link to="/services">Services</Link></li>
+                {/* <li className="nav-link"><Link to="/services">Services</Link></li> */}
                 <li className="nav-link"><Link to="/about">About</Link></li>
                 <li className="nav-link"><Link to="/contact">Contact</Link></li>
             </ul>
