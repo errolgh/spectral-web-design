@@ -1,16 +1,27 @@
+import React from 'react'
 import devices from '../../assets/devices.svg'
 import three_up_arrows from '../../assets/three_up_arrows.svg'
 import nerd from '../../assets/nerd.svg'
 import { Link } from 'react-router-dom'
-
+import { useInView } from 'react-intersection-observer'
+import { useAnimation, motion } from 'framer-motion'
+import { pageAnimation } from '../../animation'
+//https://developedbyed.com/courses/1203573/lectures/26898958
 export default function WhatWeDo(){
+    const controls = useAnimation()
+    const [element, view] = useInView( { threshold: 0.8 })
+    if(view){
+        controls.start('show')
+    } else {
+        controls.start('hidden')
+    }
     return(
         <section class="what-we-do">
-            <div class="what-we-do-top">
+            <motion.div class="what-we-do-top" variants={pageAnimation} initial="hidden" animate={controls} ref={element}>
                 <h2>What We Do</h2>
                 <span>~* *~</span>
                 <p>We are a nation-wide web development and design company based in Baltimore, MD. Our services cater to small businesses and professional individuals who want to grow and understand that a unique web presence is imperative in the age of cookie-cutter WordPress and Wix sites. <Link to="/pricing">LEARN MORE</Link></p>
-            </div>                                                                                     
+            </motion.div>                                                                                     
             <div class="what-we-do-content">
                 <div class="item">
                     <img src={devices} alt="devices"/>

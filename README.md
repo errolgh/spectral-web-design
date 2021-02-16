@@ -6,10 +6,16 @@ Google Lighthouse benchmark tool.
 
 todo:
 add scroll animations
+hamburger css (pointer)
+mobile dropdown menu z-index issues
 
 https://www.npmjs.com/package/react-text-loop
 
 undraw
+
+framer-motion
+
+react-intersection-observer
 
 # Getting Started with Create React App
 
