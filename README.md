@@ -5,8 +5,8 @@ SEO
 Google Lighthouse benchmark tool.
 
 todo:
-add scroll animations
-hamburger css (pointer)
+finish scroll animations
+hamburger pointer css
 mobile dropdown menu z-index issues
 
 https://www.npmjs.com/package/react-text-loop
