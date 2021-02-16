@@ -5,11 +5,7 @@ SEO
 Google Lighthouse benchmark tool.
 
 todo:
-scroll to top bug
-wire up contact form
-add animations
-
-
+add scroll animations
 
 https://www.npmjs.com/package/react-text-loop
 
