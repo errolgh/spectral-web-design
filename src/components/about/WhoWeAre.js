@@ -1,4 +1,5 @@
 import owner from '../../assets/owner.jpg'
+import { Link } from 'react-router-dom'
 
 export default function WhoWeAre(){
     return (
@@ -17,7 +18,9 @@ export default function WhoWeAre(){
             <p>
                 I think it's wild that companies spend thousands of dollars upfront, and even <em>more</em> every month thereafter. It's easier for a small business to make monthly payments so they can invest more in other operations. I wanted to create a business model that lets you participate at a reasonable subscription rate.
             </p>
-            <button className="btn">Let's work together</button>
+            <Link to="/contact">
+                <button className="btn">Let's work together</button>
+            </Link>
 
         </section>
     )

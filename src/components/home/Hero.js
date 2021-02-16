@@ -1,4 +1,5 @@
 import TextLoop from 'react-text-loop'
+import { Link } from 'react-router-dom'
 
 export default function Hero(){
     return(
@@ -19,7 +20,9 @@ export default function Hero(){
                     <h3 className="sub-tagline">Designed to&nbsp;
                         <TextLoop mask={true} springConfig={{ stiffness: 50, damping: 12 }} interval={3000} children={["Inspire.", "Captivate.", "Empower.", "Work."]} />
                     </h3>
-                    <button className="btn">Contact Us</button>
+                    <Link to="/contact">
+                        <button className="btn">Contact Us</button>
+                    </Link>
                 </div>
                 
 

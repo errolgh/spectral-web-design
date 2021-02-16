@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Prices(){
     return (
         <section class="prices">
@@ -9,7 +11,7 @@ export default function Prices(){
 
                 <div class="price-box">
                     <h3>Standard</h3>
-                    <span>5 pages</span>
+                    <span>Up to 5 Pages</span>
                     <p>$149</p>
                     <ul>
                         <li>Unlimited Edits</li>
@@ -17,7 +19,9 @@ export default function Prices(){
                         <li>24/7 Customer Service</li>
                         <li>Lifetime Updates</li>
                     </ul>
-                    <button>Learn More</button>
+                    <Link to="/contact">
+                        <button>Learn More</button>
+                    </Link>
                 </div>
 
                 <div class="price-box price-box-premium">
@@ -27,23 +31,27 @@ export default function Prices(){
                     <ul>
                         <li>All of Standard</li>
                         <li>SEO Analysis</li>
-                        <li>Lorem</li>
+                        <li>Secure Content Creation Portal</li>
                         <li>Blog Page</li>
                     </ul>
-                    <button>Learn More</button>
+                    <Link to="/contact">
+                        <button>Learn More</button>
+                    </Link>
                 </div>
 
                 <div class="price-box">
-                    <h3>Graphic Design</h3>
+                    <h3>E-commerce</h3>
                     <span>Starting At</span>
-                    <p>$349</p>
+                    <p>$249</p>
                     <ul>
-                        <li>Lorem</li>
-                        <li>2 Revisions</li>
-                        <li>All File Formats</li>
-                        <li>Light & Dark Versions</li>
+                        <li>Store Front</li>
+                        <li>Cart & Checkout Feature</li>
+                        <li>Shopify Integration</li>
+                        <li>Content Management Portal</li>
                     </ul>
-                    <button>Learn More</button>
+                    <Link to="/contact">
+                        <button>Learn More</button>
+                    </Link>
                 </div>
 
             </div>

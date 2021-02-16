@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Footer(){
     return(
         <footer>
@@ -17,10 +19,15 @@ export default function Footer(){
             <div className="footer-lists">
                 <ul className="footer-nav-list">
                 <h4>Navigation</h4>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact</li>
+                    <Link to="/">
+                        <li>Home</li>
+                    </Link>
+                    <Link to="/about">
+                        <li>About</li>
+                    </Link>
+                    <Link to="/contact">
+                        <li>Contact</li>
+                    </Link>
                 </ul>
                 <ul className="footer-services-list">
                 <h4>Services</h4>
