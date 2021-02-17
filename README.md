@@ -5,17 +5,18 @@ SEO
 Google Lighthouse benchmark tool.
 
 todo:
-finish scroll animations
-hamburger pointer css
-mobile dropdown menu z-index issues
+- finish adding scroll animations, add to threshold array, and add easing
+- hamburger pointer css
+- mobile dropdown menu z-index issues
 
-https://www.npmjs.com/package/react-text-loop
 
-undraw
-
+npm i:
+react-text-loop
+undraw (svgs)
 framer-motion
-
 react-intersection-observer
+emailjs
+react-router-dom
 
 # Getting Started with Create React App
 
