@@ -1,98 +1,94 @@
 #logo {
-    display: flex;
-
+  display: flex;
 }
 
 #stamp {
-    height: 3rem;
-    width: 3rem;
-    background-color: $primary-dark;
-    border-radius: 50%;
-    margin-right: 0.5rem;
-    position: relative;
-    top: 3px;
+  height: 3rem;
+  width: 3rem;
+  background-color: $primary-dark;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 3px;
 }
 
 nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $primary-light;
+
+  ul {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: $primary-light;
-
-    ul {
-        display: flex;
-    }
-    #spectral {
-        text-transform: uppercase;
-        letter-spacing: 0.23rem;
-        font-weight: 600;
-    }
+  }
+  #spectral {
+    text-transform: uppercase;
+    letter-spacing: 0.23rem;
+    font-weight: 600;
+  }
 }
-
 
 .nav-link {
-    letter-spacing: 0.1rem;
-    font-weight: 600;
-    padding: 4rem 0;
-    font-size: $font-sm;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  padding: 4rem 0;
+  font-size: $font-sm;
 }
 
-
 #nav-list {
-    display: flex;
-    z-index: 3;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    padding: 2rem;
-    width: 100%;
-    background-color: $primary-light;
-    transform: translate(0, -120%);
-    transition: transform 0.5s ease-out;
-    
-    &.active {   // both styles have to be applied for this to happen
-        transform: translate(0, 40%);
-    }
+  display: flex;
+  z-index: 100;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  padding: 2rem;
+  width: 100%;
+  background-color: $primary-light;
+  transform: translate(0, -120%);
+  transition: transform 0.5s ease-out;
+
+  &.active {
+    // both styles have to be applied for this to happen
+    transform: translate(0, 40%);
+  }
 }
 
 #burger {
-    z-index: 100000;
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    div {
-        width: 25px;
-        height: 3px;
-        background-color: $primary-text-dark;
-        margin: 5px;
-    }
-    cursor: pointer;
-    
+  z-index: 100000;
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  div {
+    width: 25px;
+    height: 3px;
+    background-color: $primary-text-dark;
+    margin: 5px;
+  }
+  cursor: pointer;
 }
 
-
 @media (min-width: 992px) {
-    nav {
-        padding-top: .5rem;
-    }
+  nav {
+    padding-top: 0.5rem;
+  }
 
-    #nav-list {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        position: static;
-        padding: 0;
-        width: 45%;
-        align-items: center;
-        transform: translate(0, 0%);
-        
-        li {
-            padding: 0;
-        }
-    }
+  #nav-list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: static;
+    padding: 0;
+    width: 45%;
+    align-items: center;
+    transform: translate(0, 0%);
 
-    #burger {
-        display: none;
+    li {
+      padding: 0;
     }
-}            
+  }
+
+  #burger {
+    display: none;
+  }
+}

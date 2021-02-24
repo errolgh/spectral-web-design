@@ -1,23 +1,3 @@
-mobile first design
-Our layouts feature mobile-first design patterns.
-
-SEO
-Google Lighthouse benchmark tool.
-
-todo:
-- finish adding scroll animations, add to threshold array, and add easing
-- hamburger pointer css
-- mobile dropdown menu z-index issues
-
-
-npm i:
-react-text-loop
-undraw (svgs)
-framer-motion
-react-intersection-observer
-emailjs
-react-router-dom
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
