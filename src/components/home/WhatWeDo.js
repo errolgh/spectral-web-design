@@ -3,18 +3,18 @@ import devices from '../../assets/devices.svg'
 import three_up_arrows from '../../assets/three_up_arrows.svg'
 import nerd from '../../assets/nerd.svg'
 import { Link } from 'react-router-dom'
-import { useInView } from 'react-intersection-observer'
-import { useAnimation, motion } from 'framer-motion'
-import { pageAnimation, leftToRight, rightToLeft, fromTheBottom } from '../../animation'
+// import { useInView } from 'react-intersection-observer'
+// import { useAnimation, motion } from 'framer-motion'
+// import { pageAnimation, leftToRight, rightToLeft, fromTheBottom } from '../../animation'
 //https://developedbyed.com/courses/1203573/lectures/26898958
 export default function WhatWeDo(){
-    const controls = useAnimation()
-    const [element, view] = useInView( { threshold: 0.8 })
-    if(view){
-        controls.start('show')
-    } else {
-        controls.start('hidden')
-    }
+    // const controls = useAnimation()
+    // const [element, view] = useInView( { threshold: 0.8 })
+    // if(view){
+    //     controls.start('show')
+    // } else {
+    //     controls.start('hidden')
+    // }
     return(
         <section className="what-we-do">
             {/* <motion.div className="what-we-do-top" variants={pageAnimation} initial="hidden" animate={controls} ref={element}> */}
