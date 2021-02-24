@@ -21,7 +21,7 @@ export default function WhatWeDo(){
             <div className="what-we-do-top">
                 <h2>What We Do</h2>
                 <span>~* *~</span>
-                <p>We are a nation-wide web development and design company based in Baltimore, MD. Our services cater to small businesses and professional individuals who want to grow and understand that a unique web presence is imperative in the age of cookie-cutter WordPress and Wix sites. <Link to="/pricing">LEARN MORE</Link></p>
+                <p>We are a nation-wide web development and design company based in Baltimore, MD. Our services cater to small businesses and professional individuals who want to grow and understand that a unique web presence is imperative in the age of cookie-cutter WordPress and Wix sites. <Link to="/contact"><em className="learn-more">LEARN MORE</em></Link></p>
             </div>
             {/* </motion.div>                                                                                      */}
             <div className="what-we-do-content">
