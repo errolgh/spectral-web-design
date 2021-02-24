@@ -9,13 +9,9 @@ const sendEmail = (e) => {
 
     emailjs
       .sendForm(
-        // `${process.env.REACT_APP_SERVICE_ID}`,
-        'service_95ydjyf',
-        // `${process.env.REACT_APP_TEMPLATE_ID}`,
-        'template_c0x0ahb',
-        e.target,
-        // `${process.env.REACT_APP_USER_ID}`
-        'user_2yrJa4tMcH6vhEqJprZIe'
+        `${process.env.REACT_APP_SERVICE_ID}`,
+        `${process.env.REACT_APP_TEMPLATE_ID}`,
+        `${process.env.REACT_APP_USER_ID}`
       )
       .then((result) => {
           alert('Your email was sent successfully. Thank you!')

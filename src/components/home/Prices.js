@@ -2,14 +2,14 @@ import { Link } from 'react-router-dom'
 
 export default function Prices(){
     return (
-        <section class="prices">
+        <section className="prices">
             
             <h2>Our Pricing</h2>
             <cite>(per month)</cite>
             
-            <div class="price-boxes">
+            <div className="price-boxes">
 
-                <div class="price-box">
+                <div className="price-box">
                     <h3>Standard</h3>
                     <span>Up to 5 Pages</span>
                     <p>$149</p>
@@ -24,7 +24,7 @@ export default function Prices(){
                     </Link>
                 </div>
 
-                <div class="price-box price-box-premium">
+                <div className="price-box price-box-premium">
                     <h3>Standard + Blogging</h3>
                     <span>Starting At</span>
                     <p>$179</p>
@@ -39,7 +39,7 @@ export default function Prices(){
                     </Link>
                 </div>
 
-                <div class="price-box">
+                <div className="price-box">
                     <h3>E-commerce</h3>
                     <span>Starting At</span>
                     <p>$249</p>
