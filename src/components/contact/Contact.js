@@ -39,7 +39,7 @@ export default function Contact(){
 
             <div className="form-and-image-container">
                 <form onSubmit={sendEmail} id="contact-form">
-                    <h3>Get In Touch WIth Us</h3>
+                    <h3>Get In Touch With Us</h3>
                     <input required placeholder="Full Name" type="text" name="full_name" />
                     <input placeholder="Business Name" type="text" name="business_name" />
                     <input required placeholder="Email" type="text" name="email_address" />

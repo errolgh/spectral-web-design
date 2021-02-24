@@ -29,7 +29,7 @@ export default function HowItWorks(){
 
                 <div className="text-after-gears">
                     <h3 className="no-money-down">$0 down. Starting at $149 per month.<br/>No contract. Cancel whenever you want.</h3>
-                    <p className="standard-5-page-site">No money down for a standard website up to 5 pages. Additional features or pages that scope of work can be achieved with a custom-tailored package.</p>
+                    <p className="standard-5-page-site">No money down for a standard website with up to 5 pages. Additional features or pages that exceed the scope of work can be achieved in custom-tailored packages.</p>
                 </div>
 
 
@@ -40,7 +40,7 @@ export default function HowItWorks(){
                 <div className="work-phase">
                     <div className="how-it-works-text">
                         <h4>Unlimited Edits</h4>
-                        <p>If your product or services have changed, you can request any revisions to existing features at anytime, at no extra cost.</p>
+                        <p>If your product or services have changed, you can request any revisions to existing features or pages at anytime, at no extra cost.</p>
                     </div>
                     <div className="how-it-works-art">
                         <img src={infinite_edits} alt="Infinite Edits"/>
@@ -73,7 +73,7 @@ export default function HowItWorks(){
                     </div>
                     <div className="how-it-works-text">
                         <h4>Human Customer Service</h4>
-                        <p>Contact us anytime and communicate with a real human.</p>
+                        <p>Contact us anytime and communicate with real humans.</p>
                     </div>
                 </div>                
             </div>
