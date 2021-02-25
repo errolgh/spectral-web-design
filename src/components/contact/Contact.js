@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { pageAnimation } from '../../animation'
 
   // https://www.youtube.com/watch?v=NgWGllOjkbs
-const sendEmail = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault()
 
     emailjs
@@ -14,7 +14,8 @@ const sendEmail = (e) => {
         e.target,
         `${process.env.REACT_APP_USER_ID}`
       )
-      .then((result) => {
+      .then(
+        (result) => {
           alert('Your email was sent successfully. Thank you!')
         },
         (error) => {
