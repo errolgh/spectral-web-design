@@ -17,12 +17,12 @@ export default function WhatWeDo(){
                     <h3>Mobile-Responsive Design</h3>
                     <p>We're know that in today's digital landscape, your web presence needs to look great on desktop, mobile devices, and everything in between.</p>
                 </div>
-                <div className="item">
+                <div className="item" data-aos="fade-up">
                     <img src={three_up_arrows} alt="three up arrows"/>
                     <h3>SEO-Smart Performance</h3>
                     <p>We test website load times, accessibility, SEO-keyword quality, and performance on every website -- the metrics that modern search engines use to determine where your site shows up in search results.</p>
                 </div>
-                <div className="item">
+                <div className="item" data-aos="fade-up">
                     <img src={nerd} alt="nerd"/>
                     <h3>Hosting & Domain Maintenance</h3>
                     <p>Leave domain, hosting, and encryption to your techology professionals. Our service is meant to help you focus on your business -- leave the nerdy stuff to us!</p>
