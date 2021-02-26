@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { pageAnimation } from '../../animation'
 
   // https://www.youtube.com/watch?v=NgWGllOjkbs
+
   const sendEmail = (e) => {
     e.preventDefault()
 

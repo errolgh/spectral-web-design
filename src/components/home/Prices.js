@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function Prices(){
     return (
-        <section className="prices">
+        <section className="prices" data-aos="fade-up">
             
             <h2>Our Pricing</h2>
             <cite>(per month)</cite>

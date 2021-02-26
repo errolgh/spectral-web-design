@@ -1,38 +1,40 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-*, *::before, *::after {
-    // overflow-x: hidden; if you have this something in your design is garbo
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Ubuntu", "Helvetica", sans-serif;
-    color: $primary-text-dark;
-    // border: 0.3px solid red;
+*,
+*::before,
+*::after {
+  // overflow-x: hidden; if you have this something in your design is garbo
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", "Helvetica", sans-serif;
+  color: $primary-text-dark;
+  // border: 0.3px solid red;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 ::-webkit-scrollbar {
-    width: 13px;
+  width: 13px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: $primary-dark;
-    border-radius: 6px;
+  background: $primary-dark;
+  border-radius: 6px;
 }
 
 ::-webkit-scrollbar-track {
-    background: white;
+  background: white;
 }

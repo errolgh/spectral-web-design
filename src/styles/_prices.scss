@@ -1,144 +1,137 @@
 .prices {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto 2rem;
+    max-width: 80%;
 }
 
 .prices h2 {
-    font-size: 2rem;
-    color: $primary-dark;
+  font-size: 2rem;
+  color: $primary-dark;
 }
 
 .price-boxes {
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin: 5rem auto;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 5rem auto;
 }
-
 
 .price-box {
-    color: $primary-text-dark;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    border: 0.1px solid rgba(102, 51, 153, 0.08);
-    margin: 0 auto 2rem;
-    width: 90%;
-    button {
-        &:hover {
-            cursor: pointer;
-        }
+  color: $primary-text-dark;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border: 0.1px solid rgba(102, 51, 153, 0.08);
+  margin: 0 auto 2rem;
+  width: 90%;
+  button {
+    &:hover {
+      cursor: pointer;
     }
+  }
 }
-
 
 .price-box.price-box-premium {
-    background-color:$primary-light;
-    border: 0.1px solid rgba(102, 51, 153, 0.1);
+  background-color: $primary-light;
+  border: 0.1px solid rgba(102, 51, 153, 0.1);
 }
 
-.price-box.price-box-premium p{
-    color:$primary-dark;
+.price-box.price-box-premium p {
+  color: $primary-dark;
 }
 
-.price-box.price-box-premium ul{
-    border-top: 1px solid $primary-light;
-    
+.price-box.price-box-premium ul {
+  border-top: 1px solid $primary-light;
 }
 
-.price-box.price-box-premium ul li{
-    border-bottom: 1px solid #6633993d;
+.price-box.price-box-premium ul li {
+  border-bottom: 1px solid #6633993d;
 }
 
 .price-box ul {
-    padding: 0;
-    list-style: none;
-    border-top: 1px solid $primary-light;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid $primary-light;
 }
 
 .price-box ul li {
-    padding: 10px 0;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid $primary-light;
+  padding: 10px 0;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid $primary-light;
 }
 
 .price-box h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: $primary-dark;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: $primary-dark;
 }
 
 .price-box p {
-    font-size: 4rem;
-    font-weight: bolder;
-    margin-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
 }
-
 
 .price-box button {
-    background-image: linear-gradient(
-            to right,
-            rgb(151, 119, 201),
-            $primary-dark
-        );
-        color: white;
-        padding: 15px;
-        width: 100%;
-        border: none;
-        border-radius: 10px;
-        margin-top: 10px;
-        text-transform: uppercase;
-        font-size: 1.5;
-        letter-spacing: 2px;
+  background-image: linear-gradient(
+    to right,
+    rgb(151, 119, 201),
+    $primary-dark
+  );
+  color: white;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 1.5;
+  letter-spacing: 2px;
 }
 
-
 @media (min-width: 768px) {
-    .price-box {
-        width: 65%;
-    }
+  .price-box {
+    width: 65%;
+  }
 }
 
 @media (min-width: 992px) {
-    .price-box {
-        width: 50%;
-    }
+  .price-box {
+    width: 50%;
+  }
 }
 
 @media (min-width: 1200px) {
-    .price-box {
-        width: 50%;
-    }
+  .price-box {
+    width: 50%;
+  }
 
-    .price-boxes {
-        display: flex; 
-        height: 600px;
-    }
+  .price-boxes {
+    display: flex;
+    height: 600px;
+  }
 
-    .price-box.price-box-premium {
-        transform: scale(1.11);
-    }
-
+  .price-box.price-box-premium {
+    transform: scale(1.11);
+  }
 }
-
 
 @media (min-width: 1200px) {
-    .prices {
-        margin-bottom: 12rem;
-        width: 90%;
-    }
+  .prices {
+    margin-bottom: 12rem;
+    width: 90%;
+  }
 }
-
 
 @media (min-width: 1400px) {
-    .prices {
-        width: 60%;
-    }
-    .price-box {
-        width: 40%;
-    }
+  .prices {
+    width: 60%;
+  }
+  .price-box {
+    width: 40%;
+  }
 }

@@ -7,19 +7,11 @@ import contact from '../../assets/contact.svg'
 
 
 
-// gsap react
-// scroll trigger library from gsap
-// 
-
-
-
-
-
-
 export default function HowItWorks(){
     return (
         <section className="how-it-works">
         
+        <div data-aos="fade-up">
                 <h2>How It Works</h2>
 
                 <div className="gearbox">
@@ -31,13 +23,14 @@ export default function HowItWorks(){
                     <h3 className="no-money-down">$0 down. Starting at $149 per month.<br/>No contract. Cancel whenever you want.</h3>
                     <p className="standard-5-page-site">No money down for a standard website with up to 5 pages. Additional features or pages that exceed the scope of work can be achieved in custom-tailored packages.</p>
                 </div>
+        </div>
 
 
 
 
             
             <div className="work-phase-list">
-                <div className="work-phase">
+                <div className="work-phase" data-aos="fade-up">
                     <div className="how-it-works-text">
                         <h4>Unlimited Edits</h4>
                         <p>If your product or services have changed, you can request any revisions to existing features or pages at anytime, at no extra cost.</p>
@@ -47,7 +40,7 @@ export default function HowItWorks(){
                     </div>
                 </div>                        
 
-                <div className="work-phase">
+                <div className="work-phase" data-aos="fade-up">
                     <div className="how-it-works-art">
                         <img src={web_development} alt="Infinite Edits"/>
                     </div>
@@ -57,7 +50,7 @@ export default function HowItWorks(){
                     </div>
                 </div>                
 
-                <div className="work-phase">
+                <div className="work-phase" data-aos="fade-up">
                     <div className="how-it-works-text">
                         <h4>Hosting Management</h4>
                         <p>Hosting maintenence are built into your subscription. Once your website is completed, we will keep it up and running while you focus on your business.</p>
@@ -67,7 +60,7 @@ export default function HowItWorks(){
                     </div>
                 </div>                
 
-                <div className="work-phase">
+                <div className="work-phase" data-aos="fade-up">
                     <div className="how-it-works-art">
                         <img src={contact} alt="Infinite Edits"/>
                     </div>
